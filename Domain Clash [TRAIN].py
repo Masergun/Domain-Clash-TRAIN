@@ -35,6 +35,7 @@ while running:
                     end_time = time.time()
                     total_time = end_time - start_time
                     print("All keys pressed correctly! Total time:", total_time)
+                    print("Всё верно! Затраченое время:", total_time)
                     running = False
             else:
                 print("Wrong key pressed:", event.unicode)
